@@ -8,6 +8,11 @@ sections:
   path: README.md
   label: README
   read_only: true
+- type: directory
+  path: content/about
+  label: About
+  create: none
+  match: "*"
 - type: heading
   label: Blog Post
 - type: directory
@@ -18,12 +23,9 @@ sections:
   templates:
   - post
 - type: heading
+  label: Services
+- type: heading
   label: Others Pages
-- type: directory
-  path: content/about
-  label: About
-  create: none
-  match: "*"
 - type: directory
   path: content/contact
   label: Contact
